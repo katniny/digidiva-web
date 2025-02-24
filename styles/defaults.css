@@ -1,0 +1,37 @@
+/* header 1 */
+h1 {
+   font-size: 38px;
+}
+
+/* font sizes for small text like p or a */
+p, a {
+   font-size: 1.1em;
+}
+
+/* links */
+a {
+   color: var(--blue);
+   text-decoration: none;
+}
+
+a:focus,
+a:hover {
+   text-decoration: underline;
+   border: none;
+}
+
+/* description */
+p.desc {
+   color: var(--gray);
+   font-size: 1em;
+}
+
+/* list items */
+ul li {
+   list-style: circle;
+   margin-left: 15px;
+}
+
+li.deeper {
+   margin-left: 35px;
+}
